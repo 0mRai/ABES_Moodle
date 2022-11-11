@@ -1,0 +1,30 @@
+form {
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: 15px auto;
+  }
+  textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 8px 15px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s background;
+  }
+  button:hover {
+    background: #555;
+  }
+  .actions {
+    margin-top: 15px;
+    text-align: right;
+  }
